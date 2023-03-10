@@ -9,9 +9,7 @@ import tiga from '../img/3.png'
 import empat from '../img/4.png'
 import lima from '../img/5.png'
 
-//bg
-import bg2 from '../img/w1.jpg'
-import bg3 from '../img/w3.jpg'
+
 
 
 const Main = () => {

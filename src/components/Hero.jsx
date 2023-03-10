@@ -1,12 +1,21 @@
 import React from 'react'
 import bg from '../img/bg.png'
 
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
 const Hero = () => {
+
+  AOS.init({
+    duration: 1000
+  });
+
+
   return (
     
-    <div className='relative'>
+    <div className='relative pt-10'>
         <img src={bg} alt="dummy" className='w-full bg-cover absolute -z-10' />
-        <div className='w-2/3 text-center mx-auto text-white py-16 md:py-28 lg:py-32'>
+        <div data-aos="fade-right" className='w-2/3 text-center mx-auto text-white py-16 md:py-28 lg:py-32 xl:py-48'>
             <p className='text-xl md:text-2xl font-[Poppins] py-1'>Kuat Elastis Anti Sobek</p>
             <h1 className='text-4xl md:text-6xl lg:text-7xl font-bold font-[gugi] py-1'>SNEAKER'S</h1>
             <p className='text-xl md:text-2xl lg:text-3xl font-[Poppins] py-1'>Gaya Baru Tampil Baru Dan Beda</p>

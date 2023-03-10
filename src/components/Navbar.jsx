@@ -4,9 +4,8 @@ const Navbar = () => {
 
     const [isOpen , setIsOpen] = useState(false)
   return (
-    <div className='w-full bg-black fixed z-10 '>
-            <div className='flex  p-5 justify-between w-3/4 text-white mx-auto md:w-3/4 '>
-     
+    <div className='w-full bg-black flex fixed z-10 text-white p-5 justify-between'>
+           
             <div>
                 <a className='text-xl font-[gugi]' href="#">SNEAKER'S</a>
             </div>
@@ -14,7 +13,7 @@ const Navbar = () => {
 
            <div>
 
-            <div onClick={() => setIsOpen(!isOpen)} className='md:hidden'> 
+            <div onClick={() => setIsOpen(!isOpen)} className='lg:hidden '> 
                         <svg 
                         xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
 
@@ -34,7 +33,7 @@ const Navbar = () => {
                 </div>
 
            </div>
-            </div>
+           
 
 
             <div className={`${isOpen ? 'block' : 'hidden'} flex justify-center text-center text-white  font-[Poppins] `}>
@@ -45,7 +44,7 @@ const Navbar = () => {
                         <li className='p-3'><a href="#"></a></li>
                            
                     </ul>
-                </div>
+            </div>
     </div>
   )
 }

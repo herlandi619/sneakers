@@ -4,8 +4,8 @@ const Navbar = () => {
 
     const [isOpen , setIsOpen] = useState(false)
   return (
-    <div className='w-full bg-black  fixed z-10 '>
-            <div className='flex p-5 justify-between w-3/4  text-white mx-auto md:w-3/4 '>
+    <div className='w-full bg-black fixed z-10 '>
+            <div className='flex  p-5 justify-between w-3/4 text-white mx-auto md:w-3/4 '>
      
             <div>
                 <a className='text-xl font-[gugi]' href="#">SNEAKER'S</a>
@@ -26,7 +26,7 @@ const Navbar = () => {
                     </div> 
 
                 <div>
-                    <ul className='lg:flex hidden  gap-4 md:gap-5 font-[Poppins]'>
+                    <ul className='lg:flex hidden gap-4 md:gap-5 font-[Poppins]'>
                         <li><a href="#">About</a></li>
                         <li><a href="#">Blogs</a></li>
                         <li><a href="#">Services</a></li>
@@ -37,7 +37,7 @@ const Navbar = () => {
             </div>
 
 
-            <div className={`${isOpen ? 'block' : 'hidden'} flex justify-center text-center text-white mx-auto font-[Poppins] backdrop-blur-sm`}>
+            <div className={`${isOpen ? 'block' : 'hidden'} flex justify-center text-center text-white  font-[Poppins] `}>
                     <ul>
                         <li className='p-3'><a href="#">About</a></li>
                         <li className='p-3'><a href="#">Blogs</a></li>

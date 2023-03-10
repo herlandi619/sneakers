@@ -4,8 +4,8 @@ const Navbar = () => {
 
     const [isOpen , setIsOpen] = useState(false)
   return (
-    <div className='w-full bg-black fixed z-10 '>
-            <div className='flex p-5 justify-between w-4/4 bg-black text-white mx-auto md:w-3/4 '>
+    <div className='w-full bg-black  fixed z-10 '>
+            <div className='flex p-5 justify-between w-3/4  text-white mx-auto md:w-3/4 '>
      
             <div>
                 <a className='text-xl font-[gugi]' href="#">SNEAKER'S</a>
@@ -22,7 +22,6 @@ const Navbar = () => {
 
                         <path className={isOpen ? 'block' : 'hidden'} strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
 
-
                         </svg>
                     </div> 
 
@@ -33,8 +32,10 @@ const Navbar = () => {
                         <li><a href="#">Services</a></li>
                     </ul>
                 </div>
+
            </div>
             </div>
+
 
             <div className={`${isOpen ? 'block' : 'hidden'} flex justify-center text-center text-white mx-auto font-[Poppins] backdrop-blur-sm`}>
                     <ul>

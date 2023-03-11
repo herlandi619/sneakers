@@ -19,24 +19,35 @@ const Footer = () => {
             <img src={tw} alt="tw" width={30} />
       </div>
 
-      <div className='md:flex'>
-        <div className='text-white py-10 text-center md:w-1/2'>
-            <h1 className='text-2xl'>Sub Menu 1</h1>
-            <p className='text-md  py-3'>Isi Content 1</p> 
-            <p className='text-md  py-3'>Isi Content 2</p> 
-            <p className='text-md py-3 '>Isi Content 3</p> 
+      <div className='md:flex text-center'>
+        <div className='text-white py-10  md:w-1/2'>
+            <h1 className='text-2xl font-semibold mb-1'>Menu</h1>
+            <p className='text-md text-slate-300 py-1'>About</p> 
+            <p className='text-md text-slate-300 py-1'>Blogs</p> 
+            <p className='text-md text-slate-300 py-1 '>Services</p> 
             
         </div>
 
-        <div className='text-white py-10 text-center md:w-1/2'>
-            <h1 className='text-2xl'>Sub Menu 2</h1>
-            <p className='text-md  py-3'>Isi Content 1</p> 
-            <p className='text-md  py-3'>Isi Content 2</p> 
-            <p className='text-md py-3 '>Isi Content 3</p> 
+        <div className='text-white py-10  md:w-1/2'>
+            <h1 className='text-2xl font-semibold mb-1'>Community</h1>
+            <p className='text-md text-slate-300  py-1'>Github</p> 
+            <p className='text-md text-slate-300  py-1'>Discord</p> 
+            <p className='text-md text-slate-300 py-1 '>Youtube</p> 
             
         </div>
+
+        <div className='text-white py-10  md:w-1/2'>
+            <h1 className='text-2xl font-semibold mb-1'>Getting Started</h1>
+            <p className='text-md text-slate-300  py-1'>Upgrade Guide</p> 
+            <p className='text-md text-slate-300  py-1'>Editor Setup</p> 
+            <p className='text-md text-slate-300 py-1 '>Browser Support</p> 
+            
+        </div>
+        
+        
       </div>
 
+      <hr className=' border-x-grayscale my-5'  />
       <div>
         <p className='text-white text-xs text-center py-3'>Copyright herlandi619 || Reactjs - Tailwindcss 2023</p>
       </div>

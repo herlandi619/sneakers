@@ -21,7 +21,7 @@ const Main = () => {
   return (
     <div>
 
-      <div  className='text-2xl font-[Poppins] w-3/4 md:w-3/4 mx-auto py-28 md:py-40 lg:mt-48 lg:w-1/2 xl:w-3/4 xl:mt-80  '>
+      <div  className='text-2xl font-[Poppins] w-3/4 md:w-3/4 mx-auto py-28 md:py-40 lg:mt-48 lg:w-1/2 xl:w-3/4 xl:mt-80'>
         <p data-aos="fade-left" className='md:w-2/2 xl:w-2/4 md:mx-auto md:py-10'>“Product Terpopuler dengan bahan yang bagus kuat awet dan terpercaya untuk semua kalangan anak muda maupun dewasa remaja kakek dan nenek"</p>
 
 
@@ -32,7 +32,7 @@ const Main = () => {
 
        <div className='text-2xl font-[Poppins] p-10 grid gap-20 md:p-20 md:w-4/4 md:grid md:grid-cols-2 md:gap-40 xl:gap-20   '>
 
-        <img data-aos="fade-left" className="mx-auto hover:scale-110 duration-500 ease-out md:w-2/2 lg:w-3/4 md:col-start-2 md:row-start-1  " src={dua} alt="dua" />
+        <img data-aos="fade-left" className="mx-auto  md:w-2/2 lg:w-3/4 md:col-start-2 md:row-start-1 hover:scale-110 duration-500" src={dua} alt="dua" />
 
         <p data-aos="fade-right" className=' md:w-2/2 xl:w-3/4 '>“Desain menarik dan unik untuk dilihat ,dan sangat ramah untuk semua kalangan remaja maupun orang dewasa”</p>
 

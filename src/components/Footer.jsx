@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
 
 
 //gambarw
@@ -8,7 +9,7 @@ import tw from '../img/tw.png'
 
 const Footer = () => {
   return (
-    <div className='bg-black p-20'>
+    <div className='bg-black p-20 w-screen overflow-auto '>
         <div>
             <h1 className='text-white text-5xl font-bold'>SNEAKER'S</h1>
         </div>
@@ -22,7 +23,7 @@ const Footer = () => {
       <div className='md:flex text-center'>
         <div className='text-white py-10  md:w-1/2'>
             <h1 className='text-2xl font-semibold mb-1'>Menu</h1>
-            <p className='text-md text-slate-300 py-1'>About</p> 
+            <Link to='/' className='text-slate-300 py-1' >About</Link>
             <p className='text-md text-slate-300 py-1'>Blogs</p> 
             <p className='text-md text-slate-300 py-1 '>Services</p> 
             
@@ -47,7 +48,7 @@ const Footer = () => {
         
       </div>
 
-      <hr className=' border-x-grayscale my-5'  />
+      
       <div>
         <p className='text-white text-xs text-center py-3'>Copyright herlandi619 || Reactjs - Tailwindcss 2023</p>
       </div>

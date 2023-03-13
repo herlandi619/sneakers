@@ -9,7 +9,7 @@ import tw from '../img/tw.png'
 
 const Footer = () => {
   return (
-    <div className='bg-black p-20 w-screen overflow-auto '>
+    <div className='bg-black p-20 w-screen overflow-auto grid gap-5 '>
         <div>
             <h1 className='text-white text-5xl font-bold'>SNEAKER'S</h1>
         </div>
@@ -21,15 +21,15 @@ const Footer = () => {
       </div>
 
       <div className='md:flex text-center'>
-        <div className='text-white py-10  md:w-1/2'>
+        <div className='text-white py-10  md:w-1/2 hidden md:block'>
             <h1 className='text-2xl font-semibold mb-1'>Menu</h1>
-            <Link to='/' className='text-slate-300 py-1' >About</Link>
-            <p className='text-md text-slate-300 py-1'>Blogs</p> 
+            <Link to='/about' className='text-slate-300 py-1 block' >About</Link>
+            <Link to='/career' className='text-slate-300 py-1 block' >Career</Link>
             <p className='text-md text-slate-300 py-1 '>Services</p> 
             
         </div>
 
-        <div className='text-white py-10  md:w-1/2'>
+        <div className='text-white py-10  md:w-1/2 hidden md:block'>
             <h1 className='text-2xl font-semibold mb-1'>Community</h1>
             <p className='text-md text-slate-300  py-1'>Github</p> 
             <p className='text-md text-slate-300  py-1'>Discord</p> 
@@ -37,7 +37,7 @@ const Footer = () => {
             
         </div>
 
-        <div className='text-white py-10  md:w-1/2'>
+        <div className='text-white py-10  md:w-1/2 hidden md:block'>
             <h1 className='text-2xl font-semibold mb-1'>Getting Started</h1>
             <p className='text-md text-slate-300  py-1'>Upgrade Guide</p> 
             <p className='text-md text-slate-300  py-1'>Editor Setup</p> 

@@ -29,8 +29,8 @@ const Navbar = () => {
 
             <div>
                 <ul className='md:flex hidden gap-5 md:gap-5 font-[Poppins]'>
-                <Link to='/' className='text-xl font-[gugi]' >About</Link>
-                    <li><a href="#">Blogs</a></li>
+                <Link to='/about' className='text-xl font-[gugi]' >About</Link>
+                <Link to='/career' className='text-xl font-[gugi]' >Career</Link>
                     <li><a href="#">Services</a></li>
                 </ul>
             </div>
@@ -40,8 +40,9 @@ const Navbar = () => {
 
 <div className={`${isOpen ? 'block' : 'hidden'} justify-center text-center text-white bg-black bg-opacity-50 backdrop-blur font-[Poppins] pt-20 fixed w-screen h-screen uppercase z-10 `}>
     <ul>
-        <li className='p-3'><a href="#">About</a></li>
-        <li className='p-3'><a href="#">Blogs</a></li>
+    <Link to='/about' className='text-xl font-[gugi] block my-5' >About</Link>
+    <Link to='/career' className='text-xl font-[gugi] block my-5' >Career</Link>
+
         <li className='p-3'><a href="#">Services</a></li>
         <li className='p-3'><a href="#"></a></li>     
     </ul>

@@ -31,7 +31,7 @@ const Hero = () => {
                     className="text-4xl md:text-6xl lg:text-7xl font-bold font-[gugi] py-1"
                 />
             <p className='text-xl md:text-2xl lg:text-3xl font-[Poppins] pb-3 lg:pb-5 md:pb-4'>Gaya Baru Tampil Baru Dan Beda</p>
-            <Link to='/' className='px-3 bg-black bg-opacity-50 text-white rounded-lg font-[Poppins] py-1 md:px-4 md:py-2 md:text-2xl lg:text-3xl hover:scale-105 duration-500 ease-out'>PESAN SEKARANG</Link>
+            <Link to='/login' className='px-3 bg-black bg-opacity-50 text-white rounded-lg font-[Poppins] py-1 md:px-4 md:py-2 md:text-2xl lg:text-3xl hover:scale-105 duration-500 ease-out'>PESAN SEKARANG</Link>
         </div>
        </div>
     </div>

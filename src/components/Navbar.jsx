@@ -4,6 +4,7 @@ import {Link} from 'react-router-dom'
 const Navbar = () => {
 
     const [isOpen , setIsOpen] = useState(false)
+
   return (
 <div>
 
@@ -31,7 +32,8 @@ const Navbar = () => {
                 <ul className='md:flex hidden gap-5 md:gap-5 font-[Poppins]'>
                 <Link to='/about' className='text-xl font-[gugi]' >About</Link>
                 <Link to='/career' className='text-xl font-[gugi]' >Career</Link>
-                    <li><a href="#">Services</a></li>
+                <Link to='/contact' className='text-xl font-[gugi]' >Contact</Link>
+                   
                 </ul>
             </div>
             
@@ -42,8 +44,9 @@ const Navbar = () => {
     <ul>
     <Link to='/about' className='text-xl font-[gugi] block my-5' >About</Link>
     <Link to='/career' className='text-xl font-[gugi] block my-5' >Career</Link>
+    <Link to='/contact' className='text-xl font-[gugi]' >Contact</Link>
 
-        <li className='p-3'><a href="#">Services</a></li>
+       
         <li className='p-3'><a href="#"></a></li>     
     </ul>
 </div>

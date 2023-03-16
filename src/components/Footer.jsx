@@ -25,7 +25,7 @@ const Footer = () => {
             <h1 className='text-2xl font-semibold mb-1'>Menu</h1>
             <Link to='/about' className='text-slate-300 py-1 block' >About</Link>
             <Link to='/career' className='text-slate-300 py-1 block' >Career</Link>
-            <Link to='/contact' className='text-xl font-[gugi]' >Contact</Link>
+            <Link to='/contact' className='text-slate-300 py-1 block' >Contact</Link>
             
         </div>
 

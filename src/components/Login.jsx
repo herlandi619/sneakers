@@ -148,17 +148,17 @@ class Login extends Component {
                   <div className='grid grid-cols-1 gap-2'>
                     <h3 className='text-white text-center font-semibold py-2'>SNEAKER Corps</h3>
                     <label className='text-white' htmlFor="">Nama :</label>
-                    <input type="text" name='title' value={this.state.formBlogPost.title} className='rounded-sm focus:outline-none focus:ring focus:border-blue-500 ' onChange={this.handleFormChange}/>
+                    <input type="text" name='title' value={this.state.formBlogPost.title} placeholder="Masukan Nama" className='rounded-sm focus:outline-none focus:ring focus:border-blue-500 p-2 text-black ' onChange={this.handleFormChange}/>
                   </div>
 
                   <div className='grid grid-cols-1 gap-2'>
                     <label className='text-white' htmlFor="">Email :</label>
-                    <input type="text" name='body' id='body' value={this.state.formBlogPost.body}  className='rounded-sm focus:outline-none focus:ring focus:border-blue-500' onChange={this.handleFormChange}/>
+                    <input type="text" name='body' id='body' value={this.state.formBlogPost.body} placeholder="Masukan Email"  className='rounded-sm focus:outline-none focus:ring focus:border-blue-500 p-2 text-black' onChange={this.handleFormChange}/>
                   </div>
 
                   <div className='grid grid-cols-1 gap-2'>
                     <label className='text-white' htmlFor="">No Telepon :</label>
-                    <input type="text" name='number' id='number' value={this.state.formBlogPost.number}  className='rounded-sm focus:outline-none focus:ring focus:border-blue-500' onChange={this.handleFormChange}/>
+                    <input type="text" name='number' id='number' value={this.state.formBlogPost.number} placeholder="Masukan Email"  className='rounded-sm focus:outline-none focus:ring focus:border-blue-500 p-2 text-black' onChange={this.handleFormChange}/>
                   </div>
 
               

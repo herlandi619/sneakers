@@ -19,7 +19,8 @@ const About = () => {
       });
 
   return (
-    <div className='p-10 md:mt-32 lg:mt-56 xl:mt-64 2xl:mt-72 '>
+
+    <div className='p-10  dark:text-white '>
       <div className='grid gap-10 md:grid-cols-2 md:gap-10 mt-10'>
         
             <div data-aos="fade-left" className=''>
@@ -138,6 +139,7 @@ BUDIARDJO</p>
         </div>
 
     </div>
+    
   )
 }
 

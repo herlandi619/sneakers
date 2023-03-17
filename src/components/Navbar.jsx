@@ -1,9 +1,16 @@
-import React, { useState } from 'react'
+import React  from 'react'
 import {Link} from 'react-router-dom'
+
+import {BsFillMoonStarsFill} from 'react-icons/bs';
+
+import handleThemeSwitch from '../App'
+import { useState } from 'react'
 
 const Navbar = () => {
 
-    const [isOpen , setIsOpen] = useState(false)
+    const [isOpen , setIsOpen] = useState(false);
+
+    
 
   return (
 <div>
@@ -11,8 +18,10 @@ const Navbar = () => {
     <div className='w-full bg-black bg-opacity-50 backdrop-blur flex fixed z-20 text-white p-5 justify-between'>
         
         <div>
-            <Link to='/' className='text-xl font-[gugi]' >SNEAKER'S</Link>
+            <Link to='/' className='text-xl font-[gugi] mx-auto ' >SNEAKER'S</Link>
         </div>
+
+        
         
 
         <div>
@@ -33,6 +42,9 @@ const Navbar = () => {
                 <Link to='/about' className='text-xl font-[gugi]' >About</Link>
                 <Link to='/career' className='text-xl font-[gugi]' >Career</Link>
                 <Link to='/contact' className='text-xl font-[gugi]' >Contact</Link>
+                <div>
+                   <button><BsFillMoonStarsFill  className='cursor-pointer  dark:text-white text-2xl' onClick={handleThemeSwitch}/></button>
+                </div>
                    
                 </ul>
             </div>
@@ -45,6 +57,7 @@ const Navbar = () => {
     <Link to='/about' className='text-xl font-[gugi] block my-5' >About</Link>
     <Link to='/career' className='text-xl font-[gugi] block my-5' >Career</Link>
     <Link to='/contact' className='text-xl font-[gugi]' >Contact</Link>
+    <button className='flex mx-auto mt-3 text-2xl'><BsFillMoonStarsFill  className='cursor-pointer  dark:text-white' onClick={handleThemeSwitch}/></button>
 
        
         <li className='p-3'><a href="#"></a></li>     

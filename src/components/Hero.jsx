@@ -17,7 +17,7 @@ const Hero = () => {
 
   return (
     
-    <div className='relative h-screen w-screen mx-auto '>
+    <div className='relative h-screen w-screen mx-auto'>
       <img src={bg} alt="dummy" className='object-cover top-5 w-full h-full absolute -z-10' />
         <div data-aos="fade-right" className='w-2/3 text-center mx-auto text-white py-16 md:py-28 lg:py-32 xl:py-48'>
        <div className='mt-40 md:mt-28 lg:mt-20 xl:mt-0'>

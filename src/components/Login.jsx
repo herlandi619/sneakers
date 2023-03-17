@@ -131,7 +131,7 @@ class Login extends Component {
     });
 
     return (
-      <div>
+      <div className='text-white dark:bg-slate-900'>
             <div className='p-10 grid gap-10 lg:w-2/3 mx-auto  xl:w-2/3'>
           <div data-aos="fade-left">
             <h1  className='text-2xl font-semibold text-center '>DAFTAR PEMESANAN</h1>

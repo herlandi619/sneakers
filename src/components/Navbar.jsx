@@ -57,7 +57,7 @@ const Navbar = () => {
     <Link to='/about' className='text-xl font-[gugi] block my-5' >About</Link>
     <Link to='/career' className='text-xl font-[gugi] block my-5' >Career</Link>
     <Link to='/contact' className='text-xl font-[gugi]' >Contact</Link>
-    <button className='flex mx-auto mt-3 text-2xl'><BsFillMoonStarsFill  className='cursor-pointer  dark:text-white' onClick={handleThemeSwitch}/></button>
+    <button className='flex mx-auto mt-3 text-2xl '><BsFillMoonStarsFill  className='cursor-pointer  dark:text-white' onClick={handleThemeSwitch}/></button>
 
        
         <li className='p-3'><a href="#"></a></li>     

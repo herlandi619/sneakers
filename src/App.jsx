@@ -14,10 +14,10 @@ import Login from './components/Login'
 
 const App = () => {
 
-  const [theme, setTheme] = useState('false');
+  const [theme, setTheme] = useState('light');
 
     useEffect(() => {
-      if(window.matchMedia(`(prefers-color-scheme: dark)`).matches){
+      if(window.matchMedia('(prefers-color-scheme: dark)').matches){
         setTheme('dark');
       }
       else

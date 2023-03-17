@@ -16,7 +16,7 @@ const Contact = () => {
       });
 
   return (
-<div className='grid gap-10 lg:gap-20 lg:p-20 dark:text-white dark:bg-black '>
+<div className='grid gap-10 lg:gap-20 lg:p-20 '>
 
     <div className='text-2xl w-full text-center  bg-gradient-to-r from-cyan-500 to-blue-200 text-white font-[gugi] md:text-xl lg:text-2xl'>
     <Typed

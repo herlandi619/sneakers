@@ -19,9 +19,9 @@ const Main = () => {
   });
 
   return (
-    <div className=''>
+    <div className='dark:bg-slate-700 dark:text-white'>
 
-      <div  className='text-2xl font-[Poppins] w-3/4 md:w-3/4 mx-auto py-28 md:py-40 lg:mt-48 lg:w-1/2 xl:w-3/4 xl:mt-80'>
+      <div  className='text-2xl font-[Poppins] w-3/4 md:w-3/4 mx-auto py-28 md:py-40  lg:w-1/2 xl:w-3/4 '>
         <p data-aos="fade-left" className='md:w-2/2 xl:w-2/4 md:mx-auto md:py-10'>“Product Terpopuler dengan bahan yang bagus kuat awet dan terpercaya untuk semua kalangan anak muda maupun dewasa remaja kakek dan nenek"</p>
 
 

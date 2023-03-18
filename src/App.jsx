@@ -12,9 +12,10 @@ import Login from './components/Login'
 
 
 
+
 const App = () => {
 
-  const [theme, setTheme] = useState('light');
+  const [theme, setTheme] = useState("light");
 
     useEffect(() => {
       if(window.matchMedia('(prefers-color-scheme: dark)').matches){
@@ -28,7 +29,7 @@ const App = () => {
 
     useEffect( () => {
         if(theme === "dark") {
-            document.documentElement.classList("dark");
+            document.documentElement.classList.add("dark");
         }else{
             document.documentElement.classList.remove("dark")
         }
@@ -41,7 +42,8 @@ const App = () => {
 
   return (
    
-      <div className='overflow-hidden' >
+      <div className='overflow-hidden'  >
+
       <Router >
            <Navbar />
            <Hero />
@@ -61,13 +63,7 @@ const App = () => {
       </div>
      
     
-      // <div className='overflow-hidden' >
-      //  
-      //   <Hero />
-      //   <About />
-      //   {/* <Main /> */}
-      //  
-      // </div>
+    
  
   )
 }

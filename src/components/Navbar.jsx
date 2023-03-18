@@ -1,14 +1,39 @@
-import React  from 'react'
+import React , { useState , useEffect }  from 'react'
 import {Link} from 'react-router-dom'
 
 import {BsFillMoonStarsFill} from 'react-icons/bs';
 
-import handleThemeSwitch from '../App'
-import { useState } from 'react'
+
+
 
 const Navbar = () => {
 
     const [isOpen , setIsOpen] = useState(false);
+
+    const [theme, setTheme] = useState("light");
+
+    useEffect(() => {
+      if(window.matchMedia('(prefers-color-scheme: dark)').matches){
+        setTheme('dark');
+      }
+      else
+      {
+        setTheme('light');
+      }
+    }, [])
+
+    useEffect( () => {
+        if(theme === "dark") {
+            document.documentElement.classList.add("dark");
+        }else{
+            document.documentElement.classList.remove("dark")
+        }
+    }, [theme]);
+
+    const handleThemeSwitch = () => {
+        setTheme(theme === "dark" ? "light" : "dark");
+    };
+
 
     
 

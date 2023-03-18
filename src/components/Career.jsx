@@ -24,7 +24,7 @@ const Career = () => {
       });
 
   return (
-    <div className=''>
+    <div className='dark:bg-slate-700 dark:text-white'>
 
       <div  className='p-10 lg:p-12 grid gap-20 md:grid-cols-2 '>
 

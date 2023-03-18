@@ -20,7 +20,7 @@ const About = () => {
 
   return (
 
-    <div className='p-10 '>
+    <div className='p-10 dark:bg-slate-700 dark:text-white'>
       <div className='grid gap-10 md:grid-cols-2 md:gap-10 mt-10'>
         
             <div data-aos="fade-left" className=''>

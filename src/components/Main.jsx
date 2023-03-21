@@ -44,7 +44,7 @@ const Main = () => {
 
         <p data-aos="fade-right" className=' md:w-2/2 xl:w-3/4 lg:self-center align-end '>“Desain menarik dan unik untuk dilihat ,dan sangat ramah untuk semua kalangan remaja maupun orang dewasa”</p>
 
-        <Tilt className="Tilt mx-auto md:col-start-2 row-start-2 hover:scale-105 duration-100" >
+        <Tilt className="Tilt mx-auto md:col-start-2 md:row-start-2 hover:scale-105 duration-100" >
         <img options={{ maxTilt: 20, perspective: 1000, easing:     "cubic-bezier(.03,.98,.52,.99)", scale: 1, speed: 300, transition: true, disableAxis: null, reset: true, glare: false, maxGlare: 1  }}  style={{ height: 250, width: 250 }}  data-aos="fade-left" className="mx-auto  md:w-2/2 lg:w-3/4 md:col-start-2 md:row-start-1 " src={tiga} alt="tiga" />
         </Tilt>
 

@@ -158,7 +158,7 @@ class Login extends Component {
 
                   <div className='grid grid-cols-1 gap-2'>
                     <label className='text-white' htmlFor="">No Telepon :</label>
-                    <input type="text" name='number' id='number' value={this.state.formBlogPost.number} placeholder="Masukan Email"  className='rounded-sm focus:outline-none focus:ring focus:border-blue-500 p-2 text-black' onChange={this.handleFormChange}/>
+                    <input type="text" name='number' id='number' value={this.state.formBlogPost.number} placeholder="Masukan No Telepon"  className='rounded-sm focus:outline-none focus:ring focus:border-blue-500 p-2 text-black' onChange={this.handleFormChange}/>
                   </div>
 
               

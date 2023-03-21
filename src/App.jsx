@@ -1,4 +1,4 @@
-import React, { useState , useEffect } from 'react'
+import React from 'react'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 
 import Hero from './components/Hero'
@@ -15,30 +15,7 @@ import Login from './components/Login'
 
 const App = () => {
 
-  const [theme, setTheme] = useState("light");
-
-    useEffect(() => {
-      if(window.matchMedia('(prefers-color-scheme: dark)').matches){
-        setTheme('dark');
-      }
-      else
-      {
-        setTheme('light');
-      }
-    }, [])
-
-    useEffect( () => {
-        if(theme === "dark") {
-            document.documentElement.classList.add("dark");
-        }else{
-            document.documentElement.classList.remove("dark")
-        }
-    }, [theme]);
-
-    const handleThemeSwitch = () => {
-        setTheme(theme === "dark" ? "light" : "dark");
-    };
-
+  
 
   return (
    
@@ -61,10 +38,6 @@ const App = () => {
           <Footer />
       </Router>
       </div>
-     
-    
-    
- 
   )
 }
 

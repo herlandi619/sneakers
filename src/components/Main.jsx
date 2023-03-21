@@ -1,6 +1,12 @@
 import React from 'react'
+
+
+//aos
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+
+//tilt js
+import Tilt from 'react-tilt'
 
 //gambaar
 import satu from '../img/1.png'
@@ -21,7 +27,7 @@ const Main = () => {
   return (
     <div className='dark:bg-slate-700 dark:text-white'>
 
-      <div  className='text-2xl font-[Poppins] w-3/4 md:w-3/4 mx-auto py-28 md:py-40  lg:w-1/2 xl:w-3/4 '>
+      <div  className='text-2xl font-[Poppins] w-3/4 md:w-3/4 mx-auto py-28 md:py-40 lg:w-1/2 xl:w-3/4 '>
         <p data-aos="fade-left" className='md:w-2/2 xl:w-2/4 md:mx-auto md:py-10'>“Product Terpopuler dengan bahan yang bagus kuat awet dan terpercaya untuk semua kalangan anak muda maupun dewasa remaja kakek dan nenek"</p>
 
 
@@ -32,28 +38,38 @@ const Main = () => {
 
        <div className='text-2xl font-[Poppins] p-10 grid gap-20 md:p-20 md:w-4/4 md:grid md:grid-cols-2 md:gap-40 xl:gap-20   '>
 
-        <img data-aos="fade-left" className="mx-auto  md:w-2/2 lg:w-3/4 md:col-start-2 md:row-start-1 hover:scale-110 duration-500" src={dua} alt="dua" />
+        <Tilt className="Tilt mx-auto hover:scale-105 duration-100" >
+        <img options={{ maxTilt: 20, perspective: 1000, easing:     "cubic-bezier(.03,.98,.52,.99)", scale: 1, speed: 300, transition: true, disableAxis: null, reset: true, glare: false, maxGlare: 1  }}  style={{ height: 250, width: 250 }}  data-aos="fade-left" className="mx-auto  md:w-2/2 lg:w-3/4 md:col-start-2 md:row-start-1 " src={dua} alt="dua" />
+        </Tilt>
 
         <p data-aos="fade-right" className=' md:w-2/2 xl:w-3/4 '>“Desain menarik dan unik untuk dilihat ,dan sangat ramah untuk semua kalangan remaja maupun orang dewasa”</p>
 
-        <img data-aos="fade-left" className="mx-auto hover:scale-110 duration-500 ease-out md:w-2/2 lg:w-3/4  " src={tiga} alt="dummy3"  />
+        <Tilt className="Tilt mx-auto hover:scale-105 duration-100" >
+        <img options={{ maxTilt: 20, perspective: 1000, easing:     "cubic-bezier(.03,.98,.52,.99)", scale: 1, speed: 300, transition: true, disableAxis: null, reset: true, glare: false, maxGlare: 1  }}  style={{ height: 250, width: 250 }}  data-aos="fade-left" className="mx-auto  md:w-2/2 lg:w-3/4 md:col-start-2 md:row-start-1 " src={tiga} alt="tiga" />
+        </Tilt>
 
 
 
         <p data-aos="fade-right" className=' md:w-2/2 xl:w-3/4 '>“Teruji dan mendapatkan lisensi dan diakui sangat dominan dengan style”</p>
 
-        <img data-aos="fade-left" className="mx-auto hover:scale-110 duration-500 ease-out md:w-2/2 md:col-start-2 md:row-start-3 lg:w-3/4 " src={empat} alt="empat" />
+        <Tilt className="Tilt mx-auto hover:scale-105 duration-200" >
+        <img options={{ maxTilt: 20, perspective: 1000, easing:     "cubic-bezier(.03,.98,.52,.99)", scale: 1, speed: 300, transition: true, disableAxis: null, reset: true, glare: false, maxGlare: 1  }}  style={{ height: 250, width: 250 }}  data-aos="fade-left" className="mx-auto  md:w-2/2 lg:w-3/4 md:col-start-2 md:row-start-1 " src={empat} alt="empat" />
+        </Tilt>
 
       
 
         <p data-aos="fade-right" className=' text-center md:w-2/2 md:py-16 xl:w-3/4  '>“gaya tampil unik dan sangat elegant”</p>
 
-        <img data-aos="fade-left" className="mx-auto hover:scale-110 duration-500 ease-out md:w-2/2 lg:w-3/4 " src={lima} alt="lma" />
+        <Tilt className="Tilt mx-auto hover:scale-105 duration-200" >
+        <img options={{ maxTilt: 20, perspective: 1000, easing:     "cubic-bezier(.03,.98,.52,.99)", scale: 1, speed: 300, transition: true, disableAxis: null, reset: true, glare: false, maxGlare: 1  }}  style={{ height: 250, width: 250 }}  data-aos="fade-left" className="mx-auto  md:w-2/2 lg:w-3/4 md:col-start-2 md:row-start-1 " src={lima} alt="lima" />
+        </Tilt>
 
           <p data-aos="fade-right" className='md:w-2/2 xl:w-3/4 '>“Bubble Gummers adalah merk internasional yang memiliki focus di bidang alas kaki anak-anak, menawar
           an kualitas terbaik di setiap produknya”</p>
 
-          <img data-aos="fade-left" className="mx-auto hover:scale-110 duration-500 ease-out md:w-2/2 md:col-start-2 md:row-start-5 lg:w-3/4  " src={satu} alt="stu" />
+          <Tilt className="Tilt mx-auto hover:scale-105 duration-200" >
+        <img options={{ maxTilt: 20, perspective: 1000, easing:     "cubic-bezier(.03,.98,.52,.99)", scale: 1, speed: 300, transition: true, disableAxis: null, reset: true, glare: false, maxGlare: 1  }}  style={{ height: 250, width: 250 }}  data-aos="fade-left" className="mx-auto  md:w-2/2 lg:w-3/4 md:col-start-2 md:row-start-1 " src={satu} alt="satu" />
+        </Tilt>
 
 
 

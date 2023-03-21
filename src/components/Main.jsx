@@ -39,7 +39,7 @@ const Main = () => {
        <div className='text-2xl font-[Poppins] p-10 grid gap-20 md:p-20 md:w-4/4 md:grid md:grid-cols-2 md:gap-30 '>
 
         <Tilt className="Tilt mx-auto hover:scale-105 duration-100" >
-        <img options={{ maxTilt: 20, perspective: 1000, easing:     "cubic-bezier(.03,.98,.52,.99)", scale: 1, speed: 300, transition: true, disableAxis: null, reset: true, glare: false, maxGlare: 1  }}  style={{ height: 250, width: 250 }}  data-aos="fade-left" className="mx-auto  md:w-2/2 lg:w-3/4 md:col-start-2 md:row-start-1 " src={dua} alt="dua" />
+        <img options={{ maxTilt: 20, perspective: 1000, easing: "cubic-bezier(.03,.98,.52,.99)", scale: 1, speed: 300, transition: true, disableAxis: null, reset: true, glare: false, maxGlare: 1  }}  style={{ height: 250, width: 250 }}  data-aos="fade-left" className="mx-auto  md:w-2/2 lg:w-3/4 md:col-start-2 md:row-start-1" src={dua} alt="dua" />
         </Tilt>
 
         <p data-aos="fade-right" className=' md:w-2/2 xl:w-3/4 lg:self-center align-end '>“Desain menarik dan unik untuk dilihat ,dan sangat ramah untuk semua kalangan remaja maupun orang dewasa”</p>

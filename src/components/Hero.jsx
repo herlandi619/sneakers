@@ -33,7 +33,8 @@ const Hero = () => {
             <p className='text-xl md:text-2xl lg:text-3xl font-[Poppins] pb-3 lg:pb-5 md:pb-4'>Gaya Baru Tampil Baru Dan Beda</p>
 
             <div className='hover:scale-110 duration-500 ease-in-out '>
-            <Link to='/login' className='px-3 bg-black bg-opacity-50 text-white rounded-lg font-[Poppins] py-1 md:px-4 md:py-2 md:text-2xl lg:text-3xl '>PESAN SEKARANG</Link>
+
+            <a href="http://sneakershoes.epizy.com/tambah.php" className='px-3 bg-black bg-opacity-50 text-white rounded-lg font-[Poppins] py-1 md:px-4 md:py-2 md:text-2xl lg:text-3xl '>PESAN SEKARANG</a>
             </div>
            
         </div>
